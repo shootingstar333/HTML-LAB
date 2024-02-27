@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form border="3">
+   <label>Name</label><br>
+   <input type="text" name="name" maxlength="25" id="name" placeholder=" enter your name" required><br>
+
+   <label>Email</label><br>
+   <input type="email" name="email" id="email" value="test@example.com" required autofocus><br>
+
+   <label>Password</label><br>
+   <input type="password" name="psswd" id="psswd" minlength="6"  required><br>
+
+   <label>Choose Category</label><br>
+
+   <select name="cat" id="cat" required>
+   	<option>Student</option>
+   	<option>Employee</option>
+   	<option selected="selected">Freelancer</option>
+   </select><br>
+
+   <label>Event Date</label><br>
+   <input type="date" name="date" id="date" required><br>
+   
+   <label>Choose ticket</label><br>
+   <input type="radio" id="ticket" name="ticket">1 ticket<br>
+   <input type="radio" id="ticket" name="ticket" checked>2 ticket<br>
+   <input type="radio" id="ticket" name="ticket">3 ticket<br>
+
+   <input type="checkbox" id="online" required>Online Payment<br>
+   <label >Notes</label><br>
+   <textarea placeholder="enter your text here"></textarea><br>
+   <br>
+
+   <input type="submit" name="submit" value="Submit"><br>
+
+
+</form>
+</body>
+</html>
